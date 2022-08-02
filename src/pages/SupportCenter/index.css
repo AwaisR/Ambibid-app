@@ -1,0 +1,177 @@
+.support-center-outer{
+    background-color: #fff;
+}
+.support-center_con {
+    max-width: 1263px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-top: 75px;
+}
+.support-center-outer h2{
+    font-size: 50px;
+    line-height: 67px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+
+.support-list {
+    margin-bottom: 100px;
+}
+.support-list h4{
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.support-list span.ant-typography {
+    font-family: 'Gilroy';
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.support_end_outer {
+    padding: 85px 0;
+    text-align: center;    
+    background: #f2f2f2 !important;
+} 
+.support_end_outer h5{
+    font-size: 32px;
+    line-height: 43px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.support_end_outer .contact_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    margin: 0 auto;
+    height: 44px;
+    background-color: #FCA311;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    line-height: 20px;
+    color: #272727;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.buy_heading h2 {
+    font-size: 50px;
+    line-height: 67px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.buy_item_text {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: block;
+}
+.buy_item_text:first-child{
+    margin-top: 40px;
+}
+.buy_contact_form {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.buy_contact_form  h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.buy_contact_form input{
+    width: 100%;
+    height: 53px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.buy_contact_form textarea{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.buy_contact_form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 67px;
+    background-color: #FCA311;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 32px;
+    color: #272727;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 1440px) {
+    .support-center_con {
+        max-width: 904px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-top: 75px;
+    }
+    .support-center-outer h2{
+        font-size: 31px;
+        line-height: 41px;
+        color: #272727;
+        font-weight: 700;
+        margin-bottom: 45px;
+    }
+    .support-list h4{
+        font-size: 18px;
+        line-height: 24px;
+        color: #272727;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .support-list span.ant-typography {
+        font-family: 'Gilroy';
+        display: block;
+        font-size:16px;
+        line-height: 22px;
+    }
+    .buy_heading h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .buy_item_text {
+        font-size: 18px;
+        line-height: 24px;
+       
+    }
+    .buy_contact_form {
+        max-width: 344px;
+    }
+    .buy_contact_form  h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .buy_contact_form input{
+        height: 35px;
+    }
+    .buy_contact_form button{
+        height: 44px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

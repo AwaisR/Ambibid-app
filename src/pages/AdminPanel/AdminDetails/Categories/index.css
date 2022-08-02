@@ -1,0 +1,230 @@
+.table_item_image .table_item_img img {
+  width: 131px;
+  height: 155px;
+  object-fit: cover;
+}
+
+.table_item_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_item_info span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #272727;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+span.red_text {
+  color: #ff3636 !important;
+}
+
+.bids_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start !important;
+}
+
+.bids_table span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #272727;
+  margin-bottom: 0;
+}
+
+.bids_table_field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end !important;
+}
+
+.bids_table_field .bids_btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.bids_table_field .bids_btn input {
+  width: 213px;
+  height: 59px;
+  margin-bottom: 10px;
+}
+
+.bids_table_field .bids_btn .btn_info {
+  font-family: 'Gilroy';
+  font-size: 30px;
+  line-height: 40px;
+  color: #272727;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.bids_table_field .bids_btn button {
+  width: 213px;
+  height: 59px;
+}
+
+.table-costomer .ant-table table {
+  padding: 0;
+}
+
+.table-costomer .ant-table-thead tr th {
+  background: #f2f2f2;
+  width: 10%;
+}
+
+/* .table-costomer .ant-table-thead tr th:first-child,
+.table-costomer .ant-table-thead tr th:nth-child(2) {
+    width: 1%;
+} */
+.categories_data table tbody.ant-table-tbody tr td {
+  border-bottom: 20px solid #f2f2f2 !important;
+}
+
+.categories_data .ant-table-cell .table_tracking.bids_table {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: flex-end;
+}
+
+.categories_data .ant-table-cell .table_tracking.bids_table img {
+  margin-right: 10px;
+}
+
+.categories_data .ant-table-thead tr th:last-child {
+  text-align: right;
+}
+
+.categories_data .ant-table-thead tr th {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.categories_data .ant-table-thead tr th button {
+  background: #fca311;
+  width: 184px;
+  height: 41px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.new_cat_inner {
+  max-width: 341px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.new_cat_inner p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.new_cat_inner input {
+  margin-bottom: 70px;
+  border-radius: 5px;
+  height: 37px;
+}
+
+.new_cat_inner button {
+  background: #fca311;
+  width: 184px;
+  height: 41px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.new_cat_inner .ant-select {
+  width: 100%;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.new_cat_inner .ant-select-selector {
+  height: 41px !important;
+  display: flex;
+  align-items: center;
+  background: #fca311 !important;
+}
+
+.new_cat_inner .save_btn {
+  margin-top: 50px;
+}
+
+.price_category {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  height: 100%;
+  padding-bottom: 110px;
+}
+
+.price_category .ant-select {
+  width: 70%;
+}
+
+.sub_detail_outer .price_outer {
+  max-width: 600px;
+}
+
+.request_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request_btn button {
+  background-color: #fca311;
+  width: 213px;
+
+  height: 59px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.request_btn a button {
+  background-color: #ff3636;
+}
+
+@media only screen and (max-width: 1440px) {
+  .table_item_info span.ant-typography {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .bids_table span.ant-typography {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .table_item_image .table_item_img img {
+    width: 91px;
+    height: 95px;
+    object-fit: cover;
+  }
+
+  .bids_table_field .bids_btn button {
+    width: 180px;
+    height: 41px;
+  }
+
+  .bids_table_field .bids_btn input {
+    width: 180px;
+    height: 41px;
+    margin-bottom: 10px;
+  }
+
+  .bids_table_field .bids_btn .btn_info {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

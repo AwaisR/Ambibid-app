@@ -1,0 +1,228 @@
+.logo {
+  text-align: left;
+  font: italic normal 600 45px/54px Argent CF;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background-color: transparent;
+  margin: 0 !important;
+  line-height: 21px !important;
+  font-size: 30px;
+}
+.marg_btm {
+  margin-bottom: 10px !important;
+  height: 41px !important;
+}
+.menu-section {
+  background: none !important;
+}
+
+.container-top {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*===============sing-up============*/
+.ant-layout {
+  background: none !important;
+}
+.Signup {
+}
+.Signup-inner {
+  top: 200px;
+  max-width: 650px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  opacity: 1;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 63px 84px;
+}
+.ant-tabs {
+  position: relative !important;
+}
+.input-view {
+  position: absolute;
+  top: 196px;
+  right: 13px;
+  width: 17px;
+}
+
+.Signup-inner .ant-tabs-top > .ant-tabs-nav::before {
+  border-bottom: unset;
+}
+.Signup-inner .ant-tabs > .ant-tabs-nav {
+  margin-bottom: 73px;
+}
+.Signup-inner h2 {
+  margin: 35px 0px 0px 20px;
+}
+
+.Input-Section input {
+  height: 31px;
+}
+.ant-input {
+}
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 74px;
+}
+
+.Signup-inner .ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: center;
+}
+.Signup-inner .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fca311;
+  font-weight: 700;
+}
+.Signup-inner .ant-tabs-ink-bar {
+  background: #fca311;
+}
+.Signup-inner .ant-tabs-tab {
+  text-transform: uppercase;
+}
+.Signup-inner .ant-btn-primary {
+  width: 100%;
+  height: 52px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background: #fca311;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.sign_text {
+  max-width: 340px;
+  text-align: center;
+  margin: 0 auto 1rem;
+}
+.sign_text a {
+  color: #000 !important;
+}
+.login-plateform {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px !important;
+}
+.login-plateform a {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  display: flex;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 0 !important;
+  font-size: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.login-plateform a span {
+  margin-right: 25%;
+  margin-left: 20px;
+}
+.google-icons {
+  color: red;
+  font-size: 21px;
+}
+.facebook-icons {
+  margin-right: 25%;
+  margin-left: 20px;
+  width: 20px;
+}
+.access-hed {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  margin: 50px 0 20px;
+  font-weight: 600;
+  width: 100%;
+}
+@media only screen and (max-width: 1440px) {
+  .Signup-inner {
+    max-width: 500px;
+    padding: 40px;
+  }
+  .login-plateform a {
+    font-size: 16px;
+  }
+  .login-plateform a span {
+    left: 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container-top {
+    padding: 0 15px;
+  }
+  .logo {
+    font-size: 35px;
+  }
+  .menu_right li.ant-menu-item {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footer {
+    background-color: #14223d;
+    padding: 40px 15px;
+  }
+  .Signup-inner {
+    max-width: 560px;
+    padding: 13px 24px;
+  }
+  .sign_text {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Signup-inner {
+    max-width: 410px;
+    padding: 13px 24px;
+  }
+  .login-plateform a span {
+    margin-right: 15%;
+    margin-left: 10px;
+  }
+  .sign_text {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu_right li.ant-menu-item {
+    font-size: 12px;
+  }
+  .Signup {
+    padding: 0 15px;
+  }
+  .Signup-inner {
+    padding: 10px 15px;
+  }
+  .login-plateform a {
+    font-size: 14px;
+  }
+  .login-plateform a span {
+    margin-right: 7%;
+    margin-left: 0;
+  }
+  .footer {
+    background-color: #14223d;
+    padding: 40px 40px;
+  }
+  .sign_text {
+    max-width: 100%;
+  }
+}

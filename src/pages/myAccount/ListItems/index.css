@@ -1,0 +1,70 @@
+.payment_item {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    width: 688px;
+}
+.payment_item_list h5.ant-typography {
+    font-size: 18px;
+    line-height: 24px;
+    color: #282726;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    margin:0;
+}
+.payment_item_list .ant-typography {
+    font-size: 14px;
+    line-height: 19px;
+    color: #282726;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    margin:0 15px 0 0;
+}
+.remove-data {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    line-height: 21px;
+    color: #282726;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-decoration: underline;
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+}
+/*-----------------media_query-------------*/
+@media only screen and (max-width: 1440px) {
+    .list_item .payment_form h4.ant-typography {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .list_item .payment_item {
+        height: 53px;
+        width: 452px;
+    }
+    .list_item .payment_item_list h5.ant-typography {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .list_item .payment_item_list .ant-typography {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .remove-data {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        line-height: 19px;
+        color: #282726;
+        font-weight: 400;
+        font-family: 'Gilroy';
+        text-decoration: underline;
+        margin-top: 5px !important;
+        margin-bottom: 15px !important;
+    }
+    
+}

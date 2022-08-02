@@ -1,0 +1,105 @@
+.catagerios_item_outer {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 150px 0;
+    position: relative;
+}
+.catagerios_item_outer .catagerios_item {
+    width: 596px;
+} 
+.catagerios_item h5 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #272727;
+    font-family: 'Gilroy';
+    margin-bottom: 100px ;
+  }
+.form_outer {
+    max-width: 520px;
+    margin: 0 auto;
+    width: 100%;
+}
+.form_outer .form_list {
+    margin-bottom: 50px;
+}
+.form_outer .form_list .ant-select  {
+    width: 100%;
+    height: 53px;
+}
+.form_outer .form_list .ant-select-selector {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.bg_orange .ant-select-selector{
+    background-color: #FCA311 !important;
+    color: #272727 !important;
+}
+.con_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #14223D;
+    font-family: 'Gilroy';
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 341px;
+    height: 67px;
+    background-color: #FCA311;
+    border-radius: 5px;
+}
+/*------------meadia-query------*/
+@media only screen and (max-width: 1440px) {
+    .catagerios_item h5 {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .form_outer {
+        max-width: 335px;
+    }
+      .form_outer .form_list .ant-select  {
+        height: 34px;
+    }
+    .form_outer .form_list .ant-select-selector {
+        height: 34px;
+    }
+    .form_outer .form_list {
+        margin-bottom: 20px;
+    }
+    .con_btn {
+        width: 224px;
+        height: 44px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .catagerios_item_outer {
+        margin-top: 10px;
+    }
+    .catagerios_item{
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .catagerios_item h5 {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .form_outer .form_list .ant-select-selector {
+        height: 43px !important;
+        align-items: center;
+        display: flex;
+    }
+    .ant-select-arrow {
+        right: 6px !important;
+    }
+}

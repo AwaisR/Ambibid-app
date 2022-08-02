@@ -1,0 +1,68 @@
+.item_specific {}
+.item-details {
+    max-width: 521px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.item-details h5.ant-typography{
+    font-size: 19px;
+    line-height: 26px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.item-details .item-feilds {
+    margin-bottom: 10px;
+}
+.item-details .item-feilds span.ant-typography{
+    font-family: 'Gilroy';
+    font-size: 13px;
+    line-height: 17px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+}
+.item-details .item-feilds input{
+    width: 66%;
+    border-radius: 5px;
+    height: 34px;
+    border-color: #707070;
+}
+.item-details .item-feilds .text_right {
+    display: flex !important;
+    justify-content: flex-end;
+    width: 66%;
+    margin-top: 10px;
+}
+.item-details .item-feilds .text_right_w{
+    display: flex !important;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+}
+.item-details .item-feilds .item-feilds_text {
+    resize: none;
+    border-color: #707070;
+}
+.item-details .item-feilds .item-feilds_text:hover{
+    border-color: #707070;
+}
+.item-details .item-specific .item-feilds {
+    margin-bottom: 20px;
+}
+.item-details .item-specific .item-feilds .ant-select {
+    width: 165px;
+    height: 34px;
+    display: flex;
+    align-items: end;
+}
+.item-details .item-specific .item-feilds .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    height: 34px;
+}
+@media only screen and (max-width: 640px) {
+.item-details{
+    padding: 30px 15px;
+}
+}

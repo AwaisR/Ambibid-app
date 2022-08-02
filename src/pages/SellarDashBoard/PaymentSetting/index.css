@@ -1,0 +1,144 @@
+.payment_outer {
+    background: #fff;
+    height: 100%;
+}
+.payment_form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.payment_form h4.ant-typography{
+    font-size: 30px;
+    line-height: 40px;
+    color: #282726;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    margin-bottom: 0px;
+}
+.payment_form .ant-typography{
+    font-size: 20px;
+    line-height: 27px;
+    color: #282726;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    margin-bottom: 70px;
+    text-align: center;
+}
+.payment_form_selct{
+    display: flex;
+    flex-direction: column;
+}
+.payment_form_selct .ant-select {
+    margin-bottom: 20px;
+    width: 520px;
+}
+.payment_form_selct input {
+    margin-bottom: 20px;
+    height: 53px;
+    border:1px solid #707070;
+    border-radius:5px;
+}
+.payment_form_selct .ant-select  .ant-select-selector{
+    border:1px solid #707070;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border-radius:5px;
+}
+.payment_form_selct .ant-select-arrow {
+    display: none;
+}
+.save_form_btn {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 520px;
+    width: 90%;
+    padding: 15px 0;
+    height: auto;
+    background-color: #FCA311;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #282726;
+    font-weight: 700;
+    font-family: 'Gilroy';
+}
+
+.save_form_btn span{
+    font-size: 24px;
+    line-height: 32px;
+    color: #282726;
+    font-weight: 700;
+    font-family: 'Gilroy';
+}
+/*-----------------media_query-------------*/
+@media only screen and (max-width: 1440px) {
+    .payment_form h4.ant-typography{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .payment_form .ant-typography{
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+    .payment_form_selct .ant-select {
+        margin-bottom: 20px;
+        width: 342px;
+    }
+    .payment_form_selct input {
+        height: 34px;
+    }
+    .payment_form_selct .ant-select  .ant-select-selector{
+        height: 34px;
+    }
+    .save_form_btn {
+        max-width: 342px;
+        height: 44px;
+        margin-top: 10px;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .payment_form {
+        height: 100%;
+    }
+    .payment_outer {
+        height: calc(100% - 31px);
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .payment_outer {
+        margin-top: 10px;
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .payment_item {
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .shipping_bg .ant-layout-content {
+        padding: 0 !important;
+    }
+    .payment_item_list {
+        width: 100% ;
+    }
+    .list_item .payment_item_list h5.ant-typography {
+        text-align: left;
+    }
+    .list_item .payment_item_list .ant-typography {
+        text-align: left;
+    }
+    .payment_outer {
+        margin-top: 10px;
+        padding: 20px 10px;
+    }
+    .payment_form h4.ant-typography {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}

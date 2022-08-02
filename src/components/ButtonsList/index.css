@@ -1,0 +1,44 @@
+.btn_outer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1292px;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto ;
+    align-items: center;
+
+}
+.btn_outer .back_icon {
+    width: 50%;
+}
+.btn_outer .contine_btn {
+    display: flex;
+    justify-content:flex-end ;
+    width: 50%;
+}
+.btn_outer .contine_btn button{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #14223D;
+    font-family: 'Gilroy';
+    background-color: #FCA311;
+    width: 341px;
+    border-radius: 5px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1440px) {
+    .btn_outer .contine_btn button{
+        font-size: 16px;
+        line-height: 21px;
+        width: 224px;
+        height: 44px;
+    } 
+    .btn_outer {
+        padding: 20px;
+    }
+}
+

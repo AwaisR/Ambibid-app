@@ -1,0 +1,463 @@
+p {
+  margin-bottom: 0 !important;
+}
+.preminu_sec {
+  padding: 45px 97px;
+  background: #fff;
+}
+.preminu_sec .ant-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.preminu_sec .ant-btn:hover,
+.preminu_sec.ant-btn:focus {
+  background-color: #212f4a !important;
+}
+.preminu_sec .heading h3 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #272727;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 14px;
+}
+.premium_list ul.ant-list-items {
+  display: flex;
+}
+.premium_list ul.ant-list-items li {
+  margin-right: 20px;
+  position: relative;
+}
+.premium_list ul.ant-list-items li::before {
+  content: '>';
+  position: absolute;
+  left: auto;
+  right: -15px;
+  top: 13px;
+  font-size: 16px;
+}
+.premium_list .ant-list-item a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #272727;
+  font-weight: 400;
+  font-style: normal;
+}
+.premium_info {
+  padding: 24px 60px;
+  background-color: #f2f2f2;
+}
+.premium_info .info_btn button {
+  font-size: 26px;
+  line-height: 37px;
+  color: #fff;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  height: 94px;
+  background: #212f4a;
+}
+.bid_text {
+  padding: 10px 0 10px;
+}
+.bid_text p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #272727;
+  margin: 0;
+}
+.bid_text strong {
+  font-size: 40px;
+  font-weight: 500;
+  color: #272727;
+  margin-left: 10px;
+}
+.preminu_bid_field {
+  display: flex;
+  width: 100%;
+}
+.preminu_bid_field input {
+  width: 70%;
+  height: 60px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.preminu_bid_field Button {
+  width: 30%;
+  height: 60px;
+  background-color: #fca311;
+  color: #272727;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0px 3px 9px #00000029;
+}
+.sumbit_btn span {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+.sumbit_btn Button {
+  width: 100%;
+  height: 65px;
+  background-color: #1773d0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0px 3px 9px #00000029;
+  border-radius: 5px;
+}
+.permium_about {
+  padding: 18px 0 22px;
+}
+.permium_about .ant-typography {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #272727;
+  margin: 0;
+}
+.permium_about strong {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.error_text {
+  padding-bottom: 15px;
+}
+.error_text p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ff3636;
+  margin: 0;
+}
+.shipping_info {
+  margin-bottom: 15px;
+}
+.shipping_info p {
+  margin: 0;
+}
+.shipping_info:last-child {
+  margin-bottom: 0;
+}
+.shipping_info .ant-typography {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #272727;
+  margin: 0;
+}
+.shipping_info strong {
+  font-weight: 700;
+  margin-right: 5px;
+  font-family: 'Gilroy';
+}
+.shipping_info .ant-image-img {
+  width: auto !important;
+}
+.jewellery_slide .ant-image-img {
+  height: 625px;
+  width: 100%;
+  object-fit: cover;
+}
+.jewellery_slide button {
+  display: none !important;
+}
+.jewellery_slide_list {
+  margin-top: 12px;
+  padding-right: 60px;
+}
+.jewellery_slide_list .ant-image-img {
+  max-width: 101px;
+  height: 101px;
+  object-fit: cover;
+}
+.social_btn {
+  margin-top: 25px;
+}
+.social_btn .ant-btn {
+  width: 50%;
+  height: 65px;
+  background-color: #f2f2f2;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  border-color: transparent;
+  position: relative;
+}
+.shipping_info .ant-image {
+  margin: 0 5px;
+}
+.social_btn .ant-btn .ant-image-img {
+  width: auto !important;
+  margin-left: 10px;
+}
+.social_btn .border:after {
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  background-color: #ccc;
+  top: 7px;
+  right: 0;
+  content: '';
+}
+.social_btn .ant-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.social_btn .ant-btn:hover,
+.social_btn .ant-btn:focus {
+  background-color: #f2f2f2 !important;
+}
+.similar_text {
+  margin-top: 21px;
+}
+.similar_text p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #272727;
+  margin: 0;
+}
+.similar_text strong {
+  font-weight: 700;
+}
+.premium-tab {
+  padding-top: 65px;
+}
+.premium-tab .ant-tabs-tab {
+  opacity: 0.5;
+  color: #ccc !important;
+  font-size: 18px;
+  line-height: 26px;
+  opacity: 1;
+}
+.premium-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #272727 !important;
+}
+.premium-tab .ant-tabs-nav::before {
+  border: 1px solid #ccc;
+}
+.premium-tab .ant-tabs-tab {
+  margin-right: 120px;
+}
+.item-postage .shipping_info p {
+  font-size: 14px;
+}
+/* .item-postage .shipping_info {
+  margin-bottom: 0px;
+} */
+
+/* .item-specify .shipping_info {
+  margin-bottom: 0px;
+} */
+
+.item-postage .add_images {
+  display: flex;
+  align-items: center;
+}
+.social-btn {
+  display: flex;
+}
+.ant-popover-inner-content .social-btn a {
+  padding: 0;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  margin-top: 57px !important;
+  margin-left: -9px !important;
+}
+.Countdown span {
+  margin-right: 3px;
+}
+/*-----------bidding-outer----------*/
+
+.bidding-outer {
+  max-width: 354px;
+  width: 100%;
+}
+.bidding-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bidding-item {
+  display: flex;
+  justify-content: space-between;
+}
+.bidding-item .ant-typography {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #272727;
+}
+/*---------place-bid-popup--------*/
+
+.place-bid-popup {
+  /* top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 643px;
+  text-align: center;
+}
+.place-bid-popup p {
+  max-width: 240px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff3636;
+  line-height: 35px;
+  text-align: center;
+}
+.place-bid-popup .ant-modal-footer {
+  display: none;
+}
+.place-bid-popup .ant-input {
+  max-width: 340px;
+  height: 60px;
+  display: block;
+  margin: 50px auto;
+}
+.place-bid-popup .ant-btn {
+  margin: 0 auto;
+  width: 240px;
+  height: 67px;
+  background: #fca311 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #00000029;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: 700;
+  color: #272727;
+  line-height: 35px;
+  text-align: center;
+}
+/*---------media query--------*/
+
+@media only screen and (max-width: 1440px) {
+  .premium_info .info_btn button {
+    font-size: 18px;
+    line-height: 26px;
+    height: 61px;
+  }
+  .bid_text p {
+    font-size: 19px;
+  }
+  .bid_text strong {
+    font-size: 25px;
+  }
+  .preminu_bid_field input {
+    height: 38px;
+  }
+  .preminu_bid_field Button {
+    height: 38px;
+    font-size: 15px;
+  }
+  .sumbit_btn Button {
+    height: 42px;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .social_btn .ant-btn {
+    height: 55px;
+    font-size: 11px;
+  }
+  .jewellery_slide .ant-image-img {
+    height: 605px;
+  }
+  .main_slider .slick-prev,
+  .slick-next {
+    width: 42px !important;
+    height: 42px !important;
+  }
+  .sellTime_item_text button {
+    font-size: 15px;
+    min-height: 44px;
+  }
+  .sellTime_item_text h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .sellTime_item_text p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 39px auto 64px !important;
+    max-width: 326px;
+    width: 100%;
+  }
+  .action_slider .silder_heading h2 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .action_slider .slider_item .slider_item_text h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .action_slider .slider_item .slider_item_text p {
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .preminu_sec .heading h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .jewellery_slide_list .ant-image-img {
+    max-width: 81px;
+    height: 81px;
+    object-fit: cover;
+  }
+  .main_slider .slick-prev,
+  .slick-next {
+    width: 56px !important;
+    height: 50px !important;
+  }
+  .premium_info {
+    padding: 24px 30px;
+    background-color: #f2f2f2;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .jewellery_slide_list {
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* .ant-image {
+		width: 100%;
+	} */
+}
+@media only screen and (max-width: 768px) {
+  .preminu_sec {
+    padding: 45px 15px;
+  }
+  .premium_info {
+    padding: 24px 15px;
+  }
+  .preminu_sec .heading h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .preminu_bid_field {
+    flex-wrap: wrap;
+  }
+  .preminu_bid_field input {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .preminu_bid_field Button {
+    width: 100%;
+  }
+  social_btn .ant-btn {
+    font-size: 14px;
+  }
+  .premium-tab .ant-tabs-tab {
+    margin-right: auto;
+  }
+  .action_slider {
+    padding: 45px 0 45px 15px;
+  }
+}

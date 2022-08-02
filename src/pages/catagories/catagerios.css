@@ -1,0 +1,303 @@
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.catagories_outer {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-bottom: 210px;
+}
+.main-cat{
+    padding-bottom: 0;
+}
+/*---------catagories_nav_mobile-----*/
+.catagories_nav_mobile {
+    display: none;
+}
+/*---------.catagores_nav------*/
+.catagores_nav {
+    width: 21.5%;
+    background-color: #fff;
+    padding: 27px 0px 0 57px;
+    height: 1170px;
+}
+.catagores_nav h3{
+    font-size: 30px;
+    line-height: 43px;
+    color: #272727;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Gilroy';
+}
+.catagores_nav_scroll .scrollspy {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.catagores_nav_scroll .scrollspy li {
+    margin-bottom: 40px;
+    position: relative;
+}
+.catagores_nav_scroll .scrollspy li.active::before{
+    content: "";
+    position: absolute;
+    height: 29px;
+    width: 2px;
+    background-color: #FCA311;
+    top: -2px;
+    left: -20px;
+}
+.catagores_nav_scroll .scrollspy li a{
+    font-size: 18px;
+    line-height: 26px;
+    color: #272727;
+    font-weight: 600;
+    font-family: 'Gilroy';
+}
+
+
+/*----------.catagores_main----------*/
+.catagores_main {
+    width: 79.5%;
+    margin-left: 30px;
+    height: 1171px;
+    overflow-y: scroll;
+}
+.catagores_main::-webkit-scrollbar{
+    display: none;
+}
+.catagerios_menu {
+    padding: 30px 38px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.catagerios_menu h2{
+    font-size: 30px;
+    line-height: 36px;
+    color: #272727;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.catagerios_list {
+    display: flex;
+    justify-content: space-between;
+}
+.catagerios_item {
+    width: 371px;
+}
+.catagerios_item li{
+    font-size: 18px;
+    line-height: 26px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.add_watch {
+    position: absolute;
+    right: 20px;
+}
+.add_watch p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #272727;
+    font-weight: 400;
+    font-family: 'Gilroy';
+}
+.add_watch span {
+    margin-right: 15px;
+    opacity: 0.7;
+}
+
+/*-------------------grid-view-bg--------------------------*/
+.grid-view-bg {
+    background-color: #fff;
+    padding: 50px 9px;
+}
+.grid-view-bg .ant-col-xxl-8 {
+    padding: 0 30px;
+}
+.catagories_grid_item {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.grid_item_img img{
+    width: 100%;
+    height: 473px;
+}
+.grid_item_text {
+    
+}
+.grid_item_text h5{
+    font-size: 16px;
+    line-height: 23px;
+    color: #272727;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    margin: 0px;
+    margin-top: 0 !important;
+}
+.grid_item_value {
+    display: flex;
+    justify-content: space-between;
+}
+.grid_item_value p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #272727;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    margin-bottom: 0;
+}
+/*-------------------media_query--------------------------*/
+@media only screen and (max-width: 1600px) {
+   
+    .catagores_nav {
+        width: 23%;
+        background-color: #fff;
+        padding: 27px 0px 0 27px;
+        height: 1170px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .grid_item_img img {
+    width: 100%;
+    height: auto;
+}
+.catagories_grid_item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+}
+
+@media only screen and (max-width: 1440px){
+    .catagores_nav h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .catagores_nav_scroll .scrollspy li a {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .catagores_nav_scroll .scrollspy li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .catagerios_menu h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .catagerios_item li {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .catagores_nav h3 {
+        font-size: 16px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+    .catagores_nav {
+        width: 30%;
+        padding: 27px 10px;
+    }
+    .catagores_nav .scrollspy li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .catagores_nav .scrollspy li {
+        margin-bottom: 20px;
+    }
+    .catagores_nav .scrollspy li.active::before {
+        top: 3px;
+        left: -7px;
+    }
+   
+    .catagerios_menu {
+        padding: 30px 18px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 768px){ 
+    .mbile_bg {
+        padding: 0 15px !important;
+    }
+    .catagores_nav_scroll {
+        padding: 20px;
+    }
+    .catagories_nav_mobile .mobile_view {
+        padding: 20px ;
+    }
+    .catagores_nav {
+        display: none;
+    }
+    .catagories_outer  {
+        flex-wrap: wrap;
+    }
+    .catagories_nav_mobile {
+        display: block;
+        background-color: #fff;
+        width: 106%;
+        margin-bottom: 10px;
+        padding: 5px;
+        margin: 0 -15px 10px -15px;
+    }
+    .catagories_nav_mobile .ant-btn{
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        line-height: 26px;
+        color: #000000;
+        font-weight: 700;
+        font-family: 'Gilroy';
+    }
+    .catagories_nav_mobile .ant-btn:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .catagores_main  {
+        width: 100%;
+        margin-left: 0;
+    }
+    .pagination {
+        left: 30% !important;
+    }
+    .pagintion_item {
+        background: #fff;
+        padding: 35px 15px;
+        position: relative;
+    }
+    .catagerios_list {
+
+        flex-wrap: wrap;
+    }
+    .catagerios_item {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 480px){ 
+    .catagories_nav_mobile {
+        width: 108%;
+    }
+    .ant-select-arrow {
+        right: -4px;
+    }
+    .add_watch {
+        bottom: 3px;
+    }
+}

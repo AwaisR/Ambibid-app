@@ -1,0 +1,38 @@
+
+.unsold-table .table_tracking .ant-typography {
+    display: flex;
+    align-items: center;
+}
+/* .unsold-table .table_tracking {
+    justify-content: flex-end;
+} */
+.unsold-table .table_tracking img {
+    margin-left: 0px;
+    position: relative;
+    right: -13px;
+    z-index: 999;
+}
+.ant-popover {
+    max-width: 20%;
+}
+@media only screen and (max-width: 1440px){
+    .unsold-table .ant-table-thead > tr > th:first-child {
+        padding-left: 0;
+        width: 175px;
+    }
+    .unsold-table .ant-table-thead>tr>th:nth-child(2) {
+        width: 90px;
+    }
+    .unsold-table .ant-table-thead>tr>th:nth-child(3) {
+        width: 265px;
+    }
+    .unsold-table .ant-table-thead>tr>th:nth-child(4) {
+        width: 80px;
+        text-align: end;
+    }
+}
+@media only screen and (max-width: 640px){
+.ant-popover {
+    max-width: 80%;
+}
+}

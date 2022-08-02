@@ -1,0 +1,143 @@
+.payment_outer .ant-layout {
+    height: auto;
+}
+section.ant-layout.site-layout-background {
+    background: #f2f2f2 !important;
+    padding: 20px;
+  }
+.recive_payment_outer {
+    background-color: #fff;
+}
+.recive_payment_form {
+    max-width: 910px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.form_heading {
+    margin-bottom: 80px;
+    text-align: center;
+}
+.form_heading h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+}
+.form_heading span.ant-typography{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    color: #272727;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+.form_outer {
+    max-width: 520px;
+    margin: 0 auto;
+    width: 100%;
+}
+.form_outer .form_list {
+    margin-bottom: 20px;
+}
+.form_outer .form_list .ant-select  {
+    width: 100%;
+    height: 53px;
+}
+.form_outer .form_list input{
+    width: 100%;
+    height: 53px;
+    border-radius: 5px;
+    border-color: #000;
+}
+.form_outer .form_list .ant-select-selector {
+    height: 53px;
+    align-items: center;
+}
+.form_list span.ant-typography{
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.continue_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 67px;
+    background-color:#FCA311 ;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 32px;
+    color: #272727;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.bottom_text {
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom_text span.ant-typography a{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 24px;
+    color: #272727;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+}
+.ant-layout {
+    min-height: auto;
+}
+
+
+/*-------------media_query------*/
+@media only screen and (max-width: 1440px) {
+    .recive_payment_form {
+        max-width: 806px;
+    }
+    .form_heading h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .form_heading span.ant-typography{
+        font-family: 'Gilroy';
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .form_heading {
+        margin-bottom: 40px;
+    }
+    .form_outer {
+        max-width: 325px;
+    }
+    .form_list span.ant-typography{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .form_outer .form_list .ant-select  {
+        height: 35px;
+    }
+    .form_outer .form_list input{
+        height: 35px;
+    }
+    .continue_btn{
+        height: 44px;
+        margin-top: 20px;
+    }
+    
+}
+@media only screen and (max-width: 640px) {
+    .form_heading {
+        padding: 0 15px;
+    }
+}

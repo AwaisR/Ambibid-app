@@ -1,0 +1,381 @@
+.sellar_account {
+  max-width: 770px;
+  margin: 0 auto;
+  padding-top: 235px;
+  text-align: center;
+}
+.sellar_account h2 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #272727;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.sellar_account p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #272727;
+  font-weight: 400;
+  margin: 14px auto 0;
+  max-width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+.sellar_account Button {
+  background: #fca311 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #00000029;
+  border-color: transparent;
+  width: 100%;
+  letter-spacing: 0px;
+  color: #14223d;
+  font-size: 24px;
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 700;
+  min-height: 67px;
+  margin: 106px auto 53px;
+  max-width: 520px;
+}
+.sellar_account a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #6b6b6b;
+  font-weight: 400;
+  margin: 14px auto 0;
+  max-width: 100%;
+  text-align: center;
+}
+
+/*---------------sellar_main_outer---------*/
+.sellar_main_bg {
+  background-color: #fff;
+}
+.sellar_main_outer {
+  max-width: 1288px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.sellar_main_left {
+  padding-right: 15px;
+}
+.sellar_main_left .Signup-inner {
+  padding: 20px 0;
+  border: none;
+}
+.sellar_main_left .Signup-inner input {
+  height: 53px;
+  margin-bottom: 10px;
+}
+.sellar_main_left .ant-input-affix-wrapper {
+  height: 53px;
+  background: #e8f0fe;
+}
+.sellar_main_left .ant-input-affix-wrapper input {
+  height: auto;
+}
+.sellar_main_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+}
+.sellar_img_list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.sellar_img_list img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.sellar_img_info {
+  margin-left: auto;
+}
+.sellar_img_info h5.ant-typography {
+  display: block;
+  text-align: end;
+  font-size: 30px;
+  line-height: 40px;
+  color: #272727;
+  font-weight: 700;
+  max-width: 517px;
+  margin-left: auto;
+  letter-spacing: 2px;
+}
+.sellar_img_info span.ant-typography {
+  font-family: 'Gilroy';
+  display: block;
+  text-align: end;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b6b6b;
+  font-weight: 400;
+  max-width: 502px;
+  margin-left: auto;
+}
+/*------------paymentMethod_outer_bg-----------*/
+.paymentMethod_outer_bg {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.paymentMethod_outer_main {
+  max-width: 1630px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 55px 30px;
+}
+.paymentMethod_outer_main .ant-row {
+  width: 100%;
+}
+.paymentMethod_item .item_image img {
+  height: 220px;
+}
+.paymentMethod_item .item_info {
+  max-width: 350px;
+  margin: 0 auto;
+}
+/* .paymentMethod_item:nth-child(2) .item_info{
+  width: 200px;
+} */
+.paymentMethod_item .item_info h5 {
+  font-size: 27px;
+  line-height: 36px;
+  color: #272727;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+.paymentMethod_item .item_info span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 16px;
+  line-height: 21px;
+  color: #272727;
+  font-weight: 400;
+}
+/*---------------needHelp_outer_main--------*/
+.needHelp_outer_main {
+  padding: 55px 30px 55px 130px;
+}
+.NeedHelp_heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.NeedHelp_heading h5 {
+  font-size: 50px;
+  line-height: 67px;
+  color: #272727;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+.needhelp_list {
+  display: flex;
+  flex-direction: column;
+}
+.needhelp_list span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  color: #272727;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*------------still_outer_bg---------*/
+.still_outer_bg {
+  text-align: center;
+  padding: 50px 0;
+}
+.still_outer_bg h5 {
+  font-size: 50px;
+  line-height: 67px;
+  color: #272727;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+.still_outer_bg button {
+  background: #fca311 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #00000029;
+  border-color: transparent;
+  width: 100%;
+  letter-spacing: 0px;
+  color: #14223d;
+  font-size: 24px;
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 700;
+  min-height: 67px;
+  max-width: 240px;
+}
+/*---------------@media-query---------*/
+@media only screen and (max-width: 1440px) {
+  .sellar_main_outer {
+    max-width: 1198px;
+  }
+  .sellar_img_list img {
+    width: 200px;
+    height: 200px;
+  }
+  .sellar_main_left .Signup-inner input {
+    height: 44px;
+    margin-bottom: 10px;
+  }
+  .sellar_main_left .ant-input-affix-wrapper {
+    height: 44px;
+  }
+  .sellar_main_left .Signup-inner .ant-input-affix-wrapper input {
+    height: 33px;
+    margin-bottom: 10px;
+  }
+  .Signup-inner .ant-btn-primary {
+    width: 100%;
+    height: 44px;
+  }
+  .sellar_img_info h5.ant-typography {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 400px;
+  }
+  .sellar_img_info span.ant-typography {
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 400px;
+  }
+  .paymentMethod_item .item_info h5 {
+    font-size: 27px;
+    line-height: 36px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 60px;
+  }
+  .sellar_main_right {
+    padding-right: 30px;
+  }
+  .paymentMethod_outer_main {
+    max-width: 1140px;
+  }
+  .paymentMethod_item .item_info {
+    max-width: 236px;
+  }
+  .paymentMethod_item .item_info br {
+    display: none;
+  }
+  .needHelp_outer_main {
+    padding: 55px 30px 55px 30px;
+  }
+  .NeedHelp_heading h5 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 60px;
+  }
+  .needhelp_list span.ant-typography {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .still_outer_bg h5 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 60px;
+  }
+  .still_outer_bg button {
+    font-size: 18px;
+    min-height: 44px;
+    max-width: 200px;
+  }
+  .sellar_main_left {
+    padding-right: 15px;
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .sellar_account {
+    padding: 75px 0px 0px;
+  }
+  .bg_white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .sellar_img_list {
+    justify-content: center;
+  }
+  .sellar_img_info {
+    margin: 0 auto;
+  }
+  .sellar_main_right {
+    padding-bottom: 30px;
+  }
+  .Signup-inner {
+    max-width: 560px;
+    padding: 13px 24px;
+    margin-bottom: 0;
+  }
+  .paymentMethod_item .item_info {
+    max-width: 236px;
+    margin-bottom: 20px;
+  }
+  .needhelp_list {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .Signup-inner .input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sellar_account {
+    max-width: 100%;
+    padding: 70px 15px;
+  }
+  .sellar_account h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .sellar_account Button {
+    margin: 50px 0;
+  }
+  .NeedHelp_heading h5 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  .still_outer_bg h5 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+}
+/*---------------@media-query---------*/
+@media only screen and (max-width: 640px) {
+  .Signup-inner {
+    max-width: 290px;
+  }
+  .sellar_img_list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .facebook-icons {
+    margin-right: 7%;
+    margin-left: 1px;
+    width: 20px;
+  }
+  .paymentMethod_item .item_info {
+    max-width: 100%;
+  }
+}

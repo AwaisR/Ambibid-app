@@ -1,0 +1,124 @@
+.print_outer{
+    height: calc(100% - 98px);
+}
+.print_sec {
+    background: #fff;
+    padding: 47px 45px 20px 121px;
+    height: 100%;
+    border-radius: 5px;
+}
+.print_sec_left{
+    margin-top: 20px;
+}
+.print_sec_left span{
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #272727;
+    font-family: 'Gilroy';
+}
+.print_sec_left .mar_btm {
+    margin-bottom: 20px;
+}
+.print_sec_right {
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    position: relative;
+    max-width: 245px;
+    margin-left: auto;
+    border: 0.25px solid #707070;
+    border-radius: 5px;
+    padding: 15px 60px 15px 0;
+
+}
+.print_sec_right .ant-image {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 20px;
+}
+.print_sec_right span{
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #272727;
+    font-family: 'Gilroy';
+}
+.print_sec_right .mar_btm {
+    margin-bottom: 20px;
+    display: flex;
+}
+.print_sec_right .mar_btm span{
+    position:absolute;
+    right: 10px;
+}
+.print_table {
+    margin-top: 130px;
+}
+.print_table .shipping_table .ant-table-thead > tr > th:first-child {
+    padding-left: 0;
+}
+.print_table .shipping_table .ant-table-tbody > tr > td {
+    background-color: #fff;
+    border-bottom: 0;
+    border-top: 20px solid #fff !important;
+}
+.print-end-table .ant-table-measure-row{
+    display: none !important;
+}
+@media only screen and (max-width: 1440px) {
+    .buyer_header_right .item {
+        font-size: 14px;
+        line-height: 26px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .buyer_header_right .print_btn {
+        width: 190px;
+        height: 44px;
+    }
+    .print_sec_left span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .print_sec_right span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .print-end-table .ant-table-thead>tr>th:nth-child(2) {
+        width: 430px;
+    }
+    .print-end-table .ant-table-thead > tr > th:first-child {
+        padding-left: 0;
+        width: 200px;
+    }
+    .print-end-table .ant-table-thead>tr>th:nth-child(3) {
+        width: 465px;
+    }
+}
+@media only screen and (max-width: 991px) {
+.print_sec {
+    padding: 47px 45px 20px 45px;
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 768px) {
+    .print_sec {
+        padding: 20px ;
+        margin-top: 10px;
+    }
+    .print_sec_right {
+        margin-top: 10px;
+        padding: 15px 60px 15px 20px;
+    }
+    .print_table {
+        margin-top: 30px;
+    }
+    .buyer_header {
+        margin-top: 10px;
+    }
+    }

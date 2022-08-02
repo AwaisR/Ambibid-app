@@ -1,0 +1,167 @@
+.leave_outer {
+    background-color: #fff;
+    padding:60px 0;
+}
+.leave_outer_main {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+.leave_head {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.leave_head span.ant-typography{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #282726;
+    font-family: 'Gilroy';
+    display: block;
+}
+.leave_head .text_right{
+    text-align: right;
+}
+.rate_text{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.rate_text span.ant-typography{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #282726;
+    font-family: 'Gilroy';
+    display: block;
+    margin-bottom: 10px;
+}
+.rate_text .ant-rate-text {
+    display: none;
+}
+.review_field {
+    width: 100%;
+}
+.review_field span.ant-typography{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #282726;
+    font-family: 'Gilroy';
+    display: block;
+    margin-bottom: 10px;
+}
+.review_field input{
+    height: 53px;
+    border-radius: 5px;
+}
+.review_field span.ant-typography.text_right{
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.review_textarea {
+    width: 100%;
+}
+.review_textarea span.ant-typography{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #282726;
+    font-family: 'Gilroy';
+    display: block;
+    margin-bottom: 10px;
+}
+.review_textarea textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+}
+.review_textarea textarea:hover{
+    border-color: #ccc;
+}
+.review_textarea span.ant-typography.text_right{
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.leave_btn {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.leave_btn button{
+    background: var(--unnamed-color-fca311) 0% 0% no-repeat padding-box;
+    background: #fca311 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #00000029;
+    opacity: 1;
+    font-size: 18px;
+    height: 48px;
+    width: 172px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #272727;
+    font-family: 'Gilroy';
+}
+@media only screen and (max-width: 1440px) {
+    .leave_outer {
+        background-color: #fff;
+        padding:30px 0;
+    }
+    .leave_head {
+        margin-bottom: 20px;
+    }
+    .leave_head span.ant-typography{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .rate_text{
+        margin-bottom: 15px;
+    }
+    .rate_text span.ant-typography{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .review_field span.ant-typography{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .review_field input{
+        height: 44px;
+    }
+    .review_field span.ant-typography.text_right{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .review_textarea span.ant-typography{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .leave_btn {
+        margin-top: 30px;
+    }
+    .leave_btn button{
+        height: 40px;
+        width: 160px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .leave_outer_main {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .leave_head .text_right {
+        text-align: left;
+        margin-top: 10px;
+    }
+}

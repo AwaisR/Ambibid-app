@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Argent CF';
+  src: url('./assests/fonts/ArgentCF-ExtraBoldItalic.woff2') format('woff2'),
+    url('./assests/fonts/ArgentCF-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Argent CF';
+  src: url('./assests/fonts/ArgentCF-Regular.woff2') format('woff2'),
+    url('./assests/fonts/ArgentCF-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assests/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('./assests/fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assests/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('./assests/fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assests/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('./assests/fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Gilroy';
+  /* background-color: red; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Argent CF';
+}

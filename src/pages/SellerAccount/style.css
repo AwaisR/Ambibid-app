@@ -1,0 +1,110 @@
+.quick_access {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-top: 113px;
+}
+.quick_access h2 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #272727;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 466px;
+  text-align: center;
+}
+.quick_access p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #272727;
+  font-weight: 400;
+  margin: 14px auto 0;
+  max-width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+.quick_access .access_form {
+  padding-top: 60px;
+}
+.quick_access .access_form input {
+  height: 53px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.quick_access .access_form input:hover {
+  border-color: #707070 !important;
+}
+.quick_access .access_form input:focus {
+  border-color: #707070 !important;
+  box-shadow: none;
+}
+.quick_access .access_form .ant-btn {
+  background: #fca311 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #00000029;
+  border-color: transparent;
+  width: 100%;
+  letter-spacing: 0px;
+  color: #14223d;
+  font-size: 24px;
+  border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 700;
+  min-height: 67px;
+  margin: 20px 0 0px;
+}
+.steper {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.steper .ant-steps {
+  justify-content: center;
+}
+.steper .ant-steps-item {
+  flex: none;
+}
+.steper .ant-steps-item-tail {
+  display: none;
+}
+.steper .ant-steps-item-content {
+  display: none;
+}
+.steper .ant-steps-item-icon {
+  margin-left: 0;
+  width: 14px !important;
+  height: 14px !important;
+  top: 0 !important;
+}
+.steper .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background: #fca311;
+}
+.steper .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background-color: #bfbfbf;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 53px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.ant-select-arrow {
+  top: 39%;
+}
+@media only screen and (max-width: 768px) {
+  .quick_access {
+    max-width: 100%;
+    padding: 70px 15px;
+  }
+  .quick_access h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .quick_access p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

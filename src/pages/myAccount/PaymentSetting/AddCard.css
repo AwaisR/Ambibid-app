@@ -1,0 +1,94 @@
+.Addcard-outer {
+    margin-top: -18px;
+}
+.Addcard-outer h5{
+    font-size: 30px;
+    line-height: 40px;
+    color: #282726;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.Addcard_header {
+    background-color: #fff;
+    width: 103.5%;
+    padding: 20px 20px 20px;
+    display: flex;
+    justify-content: start;
+    margin: 20px 0px 30px -24px;
+}
+.Addcard-item-outer {
+    background-color: #fff;
+    width: 103.5%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px -24px;
+}
+.Addcard_item_add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Addcard_item_add img {
+    width: auto;
+}
+.Addcard-data-outer {
+    margin-left: -24px;
+    display: none;
+}
+.Addcard-data{
+    background-color: #fff;
+    width: 35%;
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+.Addcard-data span.ant-typography{
+    font-size: 20px;
+    line-height: 27px;
+    color: #282726;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.remove_text {
+    text-align: right;
+    display: block;
+}
+.mrgTop_text {
+    margin-top: 50px;
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .Addcard-outer {
+        margin-top: -18px;
+    }
+    .Addcard-data-outer {
+        margin-left: 0px;
+        
+    }
+    .Addcard-item-outer {
+        width: 100%;
+        margin: 20px 0 40px 0px;
+    }
+    .Addcard_header {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px 20px 20px;
+        display: flex;
+        justify-content: start;
+        margin: 20px 0px 30px 0px;
+    }
+    .Addcard-outer h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .Addcard-outer {
+        margin-top: 0px;
+    }
+}    

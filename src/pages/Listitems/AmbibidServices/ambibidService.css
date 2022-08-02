@@ -1,0 +1,98 @@
+.amibid-outer {
+    padding: 45px 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.ambibid-heading h5{
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.ambibid-heading-info span.ant-typography {
+    font-family: 'Gilroy';
+    font-size: 22px;
+    line-height: 30px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: block;
+}
+.services_checkbox {
+    margin-bottom: 100px;
+}
+.services_checkbox .mar_left {
+    margin-left: 30px;
+}
+.services_checkbox strong{
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.services_info {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    font-weight: 400;
+    display: block;
+    margin-left: 55px;
+}
+.services_checkbox h5{
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.ship_btn_info {
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 32px;
+    color: #14223D;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+@media only screen and (max-width: 1440px) {
+    .ambibid-heading h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .ambibid-heading-info span.ant-typography {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .services_info {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .services_checkbox strong {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .services_checkbox h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .ship_btn_info {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .amibid-outer{
+        padding: 30px 15px;
+    }
+    .ship_btn_info {
+       display: none;
+    }
+    }

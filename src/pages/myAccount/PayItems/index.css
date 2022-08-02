@@ -1,0 +1,359 @@
+.payment_item-outer {
+  padding: 20px 30px;
+  background-color: #f2f2f2;
+}
+.shipping-item-outer {
+  max-width: 529px;
+  height: 227px;
+  background-color: #fff;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid #eef62c; */
+  margin-bottom: 20px;
+  padding: 22px 8px 8px 22px;
+}
+.active {
+  border: 2px solid #eef62c;
+}
+.shipping-item-outer span {
+  font-size: 18px;
+}
+h5.payment_item_head {
+  font-size: 30px;
+  line-height: 40px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.adress-data {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.textLeft {
+  max-width: 28%;
+}
+.shipping-content {
+  max-width: 28%;
+}
+.ant-checkbox-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.shipping-adress {
+  display: flex;
+  flex-direction: column;
+}
+.adressStyle {
+  display: flex;
+  /* flex-direction: column; */
+}
+.shopping_item_add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shopping_item_add img {
+  width: auto;
+}
+.adress-data-outer {
+  /* display: none; */
+}
+.order-summary-outer {
+  background-color: #fff;
+  padding: 30px;
+}
+.order-summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.order-summary-item h5 {
+  font-family: 'Gilroy';
+  font-size: 30px;
+  line-height: 40px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.order-summary-item span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #282726;
+  font-weight: 700;
+}
+.shiping-adress {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #ff3636;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.shipping-field {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.shipping-field span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.shipping-field input {
+  width: 100%;
+  height: 53px;
+  border-radius: 5px;
+}
+.shipping-data {
+  display: flex;
+  justify-content: space-between;
+}
+.shipping-data span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #282726;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.pay_btn {
+  width: 213px;
+  height: 59px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fca311;
+}
+.pay_btn a {
+  font-family: 'Gilroy';
+  font-size: 24px;
+  line-height: 32px;
+  color: #282726;
+  font-weight: 700;
+}
+/*---------payment_sucess---*/
+.payment-success-outer {
+  background-color: #fff;
+  height: calc(100vh - 130px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.payment-success-outer h5 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.payment-success-outer span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 24px;
+  color: #282726;
+  font-weight: 400;
+  margin-bottom: 20px;
+  max-width: 825px;
+  text-align: center;
+  margin: 0 auto;
+}
+.payment-success-outer button {
+  width: 520px;
+  height: 67px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fca311;
+  margin-bottom: 20px;
+}
+.payment-success-outer button span {
+  font-family: 'Gilroy';
+  font-size: 24px;
+  line-height: 32px;
+  color: #282726;
+  font-weight: 700;
+}
+
+/*---------shiping_form_outer------------*/
+.shiping_form_outer.ant-modal {
+  width: 907px !important;
+}
+.shiping_form_outer .model-header {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+.shiping_form_outer .model-header h1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.shiping_form_outer .model-items {
+  max-width: 520px;
+  margin: 0 auto 20px;
+}
+.shiping_form_outer .model-items_2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shiping_form_outer .model-items_2 input {
+  width: 68%;
+}
+.shiping_form_outer .model-items_2 .country_input {
+  width: 28%;
+}
+
+.shiping_form_outer .model-items span.ant-typography {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  line-height: 27px;
+  color: #282726;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+.shiping_form_outer .model-items .ant-select {
+  width: 100%;
+}
+.shiping_form_outer .model-items input {
+  height: 53px;
+  border-color: #707070;
+  border-radius: 5px;
+}
+.shiping_form_outer .add_adrees_btn {
+  width: 240px;
+  height: 67px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fca311;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.add_adrees_btn span {
+  font-family: 'Gilroy';
+  font-size: 24px;
+  line-height: 32px;
+  color: #282726;
+  font-weight: 700;
+}
+.adress-data .shipping-adress {
+  display: flex;
+  justify-content: space-between;
+}
+/*---------media query---*/
+@media only screen and (max-width: 1440px) {
+  .shipping-item-outer {
+    max-width: 340px;
+    height: 180px;
+  }
+  h5.payment_item_head {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .order-summary-item {
+    margin-bottom: 30px;
+  }
+  .order-summary-item h5 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .order-summary-item span.ant-typography {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .shiping-adress {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+  .shipping-field {
+    margin-top: 30px;
+  }
+  .shipping-field span.ant-typography {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .shipping-field input {
+    height: 41px;
+  }
+  .shipping-data span.ant-typography {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .pay_btn {
+    width: 180px;
+    height: 40px;
+  }
+  .pay_btn a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .payment-success-outer h5 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .payment-success-outer span.ant-typography {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .payment-success-outer button {
+    width: 320px;
+    height: 41px;
+  }
+  .payment-success-outer button span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .shiping_form_outer.ant-modal {
+    width: 700px !important;
+  }
+  .shiping_form_outer .model-header h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .shiping_form_outer .model-items span.ant-typography {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .shiping_form_outer .model-items input {
+    height: 47px;
+  }
+  .shiping_form_outer .add_adrees_btn {
+    width: 200px;
+    height: 47px;
+  }
+  .add_adrees_btn span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .shipping-item-outer {
+    margin-bottom: 20px;
+  }
+  .shiping_form_outer.ant-modal {
+    width: auto !important;
+  }
+}

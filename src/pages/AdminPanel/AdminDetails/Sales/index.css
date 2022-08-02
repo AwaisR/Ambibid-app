@@ -1,0 +1,127 @@
+.table_item_image .table_item_img img {
+    width: 131px;
+    height: 155px;
+    object-fit: cover;
+}
+
+.table_item_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_item_info span.ant-typography {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+span.red_text {
+    color: #FF3636 !important;
+}
+
+.bids_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+}
+
+.bids_table span.ant-typography {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 27px;
+    color: #272727;
+    margin-bottom: 0;
+}
+
+.bids_table_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end !important;
+}
+
+.bids_table_field .bids_btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.bids_table_field .bids_btn input {
+    width: 213px;
+    height: 59px;
+    margin-bottom: 10px;
+}
+
+.bids_table_field .bids_btn .btn_info {
+    font-family: 'Gilroy';
+    font-size: 30px;
+    line-height: 40px;
+    color: #272727;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bids_table_field .bids_btn button {
+    width: 213px;
+    height: 59px;
+}
+
+.table-costomer .ant-table table {
+    padding: 0;
+}
+
+.sales_table .ant-table table {
+    padding: 0;
+}
+
+.sales_table .ant-table-thead tr th {
+    background: #f2f2f2;
+    width: 10%;
+}
+
+.table-costomer .ant-table-thead tr th {
+    background: #f2f2f2;
+    width: 10%;
+}
+
+/* .table-costomer .ant-table-thead tr th:first-child,
+.table-costomer .ant-table-thead tr th:nth-child(2) {
+    width: 1%;
+} */
+
+@media only screen and (max-width: 1440px) {
+    .table_item_info span.ant-typography {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bids_table span.ant-typography {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .table_item_image .table_item_img img {
+        width: 91px;
+        height: 95px;
+        object-fit: cover;
+    }
+
+    .bids_table_field .bids_btn button {
+        width: 180px;
+        height: 41px;
+    }
+
+    .bids_table_field .bids_btn input {
+        width: 180px;
+        height: 41px;
+        margin-bottom: 10px;
+    }
+
+    .bids_table_field .bids_btn .btn_info {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
